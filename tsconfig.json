@@ -1,9 +1,14 @@
 {
+    "ts-node": {
+        "moduleTypes": {
+          "jest.config.ts": "cjs"
+        }
+    },
     "compilerOptions": {
         "outDir": "./dist",
-        "module": "commonjs",
-        "target": "es2019",
+        "module": "es2020",
+        "target": "es2020",
         "esModuleInterop": true,
-        "allowJs": true
+        "allowJs": true,
     }
 }
